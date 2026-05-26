@@ -1,5 +1,7 @@
 # 🏛️ UPYOG Property Tax Dashboard
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://property-tax-dashboard-omega.vercel.app/)
+
 A modern AI-powered analytics dashboard built using **React**, **Tailwind CSS**, **Recharts**, and **Gemini AI** for intelligent property tax analysis and visualization.
 
 ---
