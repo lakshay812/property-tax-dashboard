@@ -78,7 +78,9 @@ const COLORS = [
             ))}
           </Pie>
 
-          <Tooltip />
+          <Tooltip
+  formatter={(value) => [`₹${value.toFixed(2)}`, "Collection"]}
+/>
           <Legend />
         </PieChart>
       </ResponsiveContainer>
@@ -94,7 +96,9 @@ const COLORS = [
         <BarChart data={chartData}>
           <XAxis dataKey="city" />
           <YAxis />
-          <Tooltip />
+          <Tooltip
+  formatter={(value) => [`₹${value.toFixed(2)}`, "Collection"]}
+/>
           <Bar
             dataKey="collection"
             fill="#2563eb"
